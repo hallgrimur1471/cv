@@ -1,8 +1,7 @@
 import { CvItem } from './cv-item';
 
-
 export const GENERAL = {
-  name: "Sebastian Schreck",
+  name: "Hallgrímur Davíð Egilsson",
   position: "Software Engineer",
   description: "This website shall give you an impression of me and encourage your interest in hiring me. " +
   "Please navigate through the site in order to find out more."
@@ -10,55 +9,24 @@ export const GENERAL = {
 
 export const CVITEMS: CvItem[] = [
   {
-    title: "Mister Spex GmbH",
-    subtitle: "Professional Software Engineer",
-    begin: "2017-02-01",
+    title: "Svarmi",
+    subtitle: "Computer Scientist - Engineer",
+    begin: "summer 2015",
+    end: "summer 2017",
+    description: "Working on a proof-of-concept of Myriad. A network of self-chargeable drones deployable to industrial areas for frequent deliveries of processed aerial data.",
+    tags: ["Linux", "ROS", "Python", "Bash", "C++", "Ardupilot", "Git", "Jira"],
+    link: "https://www.svarmi.is",
+    thumbnail: "svarmi_logo.png",
+  },
+  {
+    title: "Svarmi",
+    subtitle: "Computer Scientist - DevOps",
+    begin: "summer 2017",
     end: "",
-    description: "Maintaining an operating the platform running our e-commerce shop. " +
-    "Automating processes and enabling the development teams to work.",
-    tags: ["Java", "Intershop", "Python", "Ansible", "Git", "KanBan", "PyCharm", "Apache HTTPD", "AWS", "Docker", "Jira", "Bamboo", "Confluence", "bash", "Kubernetes", "Oracle PL/SQL"],
-    link: "https://www.misterspex.com",
-    thumbnail: "msx-logo.png",
-  },
-  {
-    title: "Mister Spex GmbH",
-    subtitle: "Junior Software Engineer",
-    begin: "2015-06-01",
-    end: "2017-01-31",
-    description: "Implementing features for the e-Commerce platform Intershop in order to customize it. " +
-    "Developing a separated API as microservice in a DevOps way, which is responsible for price calculation and feature configuration of prescription glasses.",
-    tags: ["Java", "Intershop", "eclipse", "Scrum", "Git", "SVN", "Scala", "Testrail", "trac", "Jira", "Bamboo", "Confluence", "AWS", "TDD", "JavaScript", "Oracle PL/SQL"],
-    link: "https://www.misterspex.com",
-    thumbnail: "msx-logo.png",
-  },
-  {
-    title: "Mister Spex GmbH",
-    subtitle: "Working student Product Management / Quality Assurance",
-    begin: "2012-10-01",
-    end: "2015-05-31",
-    description: "Ensuring the quality and functionality of the web shop, ERP software and their interfaces. " +
-    "Planning and conduct releases.",
-    tags: ["Selenium", "Scrum", "Quality Assurance", "Release Management", "Testrail", "SVN", "trac", "Microsoft Dynamics NAV"],
-    link: "https://www.misterspex.com",
-    thumbnail: "msx-logo.png",
-  },
-  {
-    title: "Müllers Fanshop",
-    subtitle: "Merchandising salesman at O2World Berlin",
-    begin: "2010-08",
-    end: "2012-09",
-    description: "Selling merchandising for sport events and concerts. Responsibility over one of the sale points.",
-    link: "",
-    thumbnail: "muellers_fanshop_logo_001.jpg",
-  },
-  {
-    title: "MBU Merchandising und Sportreisen GmbH & Co. KG",
-    subtitle: "Merchandising salesman at O2World Berlin",
-    begin: "2008-09",
-    end: "2010-07",
-    description: "Selling merchandising for sport events and concerts. Responsibility over one of the sale points.",
-    link: "",
-    thumbnail: "mbu.png",
+    description: "Focusing on Systems Architecture and DevOps for maximum scalability of Myriad.",
+    tags: ["AWS", "Docker", "Kubernetes", "OpenVPN", "Bind9", "CI/CD", "TDD", "GitLab", "Python", "Bash", "Read the Docs"],
+    link: "https://www.svarmi.is",
+    thumbnail: "svarmi_logo.png",
   },
 ];
 
