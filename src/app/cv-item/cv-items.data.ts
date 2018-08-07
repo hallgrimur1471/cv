@@ -101,38 +101,31 @@ export const LANGUAGES = [
 
 export const PROJECTS: CvItem[] = [
   {
-    title: "RatS",
-    subtitle: "Script for transfering personal movie ratings from one site to another",
-    begin: "2017-02",
+    title: "Build Farm",
+    subtitle: "Compile & Deployment server",
+    begin: "",
     end: "",
-    description: "This Python project offers an easy way of synchronizing personal movie ratings from one site (e.g. IMDB) to another (e.g. Trakt). " +
-    "The script supports 10 sites currently and is constantly expanding.",
-    tags: ["Python", "Git", "Docker", "Selenium", "Beautifulsoup", "JSON", "CSV"],
-    link: "https://github.com/StegSchreck/RatS",
-    thumbnail: "RatS.png",
+    description: "Compiles & deploys software to Svarmi's drones.\n Receives source code from developers using rsync's delta-transfer algorithm and then proceeds to compile the code for Svarmi's drones envionment and CPU architecture.",
+    tags: ["Python", "CMake", "ROS", "Rsync", "Socket Programming", "Pytest"],
+    thumbnail: "build-farm-cropped.jpg",
   },
   {
-    title: "AngularCV",
-    subtitle: "A simple self-hosted online-CV",
+    title: "ROS VPN & DNS",
+    subtitle: "Encapsulating Svarmi's network of drones",
     begin: "2017-09",
     end: "",
-    description: "This project was created for the purpose of having a basic online-CV, which anyone can host by themselves. " +
-    "This very website is the result of it.",
-    tags: ["Angular 4", "Material Design", "GitHub", "CSS", "TypeScript", "JetBrains WebStorm", "AWS", "jsPDF", "npm"],
-    link: "https://github.com/StegSchreck/AngularCV",
-    thumbnail: "../AngularCV.png",
+    description: "The VPN encapsulates our ROS system with AES-256 encryption and the DNS allows our drones and servers to talk to each other using hostnames.",
+    tags: ["AWS", "OpenVPN", "Bind9", "Linux", "ROS", "Bash"],
+    thumbnail: "vpn_dns_cropped.jpeg",
   },
   {
-    title: "Recoding Aviation Hackathon",
-    subtitle: "Hackathon for improving the passenger journey for flights",
+    title: "GESTOS",
+    subtitle: "Svarmi's on-board drone software",
     begin: "",
-    end: "2017-06",
-    description: "I participated in this hackathon together with three collegues. " +
-    "We develpoed an idea how the passenger can be relieved from stress and anxiety at an airport. " +
-    "We called the idea 'Unwait the airport'. Our idea convinced the technical experts of the Munich Airport, which awarded us their partner prize.",
-    tags: ["Angular 2", "Material Design", "Git", "NodeJS", "ACI ACRIS Seamless Tavel API", "Express.js", "MongoDB", "twilio"],
-    link: "https://github.com/StegSchreck/RecodingAviation",
-    thumbnail: "re-coding-avation-ba.png",
+    end: "2017",
+    description: "The soul of Svarmi's drones. Has a state machine, does CV calculations at 100 FPS, communicates to servers, streams data through 4G network connection, etc.",
+    tags: ["Linux", "GPU", "ROS", "C++", "Google Test"],
+    thumbnail: "racing_drone_cropped.jpg",
   },
   {
     title: "OFM Helper",
