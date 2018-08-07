@@ -211,18 +211,22 @@ export const CONTACT = {
 
 export const INTERESTS = [
   {
-    title:'Rowing',
-    subtitle:'2000 — 2013',
-    icon:'rowing'
+    title:'Playing my Harp',
+    subtitle:'1999 — 2018',
+    icon:'music_note'
   },
   {
-    title:'Photography',
-    subtitle:'Pentax K3 DSLR',
-    icon:'camera_alt'
+    title:'Flying (Private pilot)',
+    subtitle:'',
+    icon:'flight'
   },
   {
-    title:'Volunteering in sports',
-    subtitle:'2005 — 2016',
+    title:'Tennis',
+    icon:'directions_run'
+  },
+  {
+    title:'Gym',
+    subtitle:'',
     icon:'favorite'
   },
 ];
