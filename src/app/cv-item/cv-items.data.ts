@@ -32,18 +32,18 @@ export const CVITEMS: CvItem[] = [
 
 export const CERTIFICATES: CvItem[] = [
   {
-    title: "Intershop Development",
-    subtitle: "Intershop Communications AG",
+    title: "Private Pilot",
+    subtitle: "Icelandic flight administration",
     begin: "",
     end: "2015-04",
-    description: "Overview (IS7-100), Intershop Frontend Development (IS7-114), Intershop Backend Programming (IS7-118)",
-    link: "http://www.intershop.de/",
+    description: "",
+    link: "",
     thumbnail: "intershop.svg",
     attachment: "ISH_Development_Training_2015.pdf",
   },
   {
-    title: "Git version control basics",
-    subtitle: "Mister Spex GmbH",
+    title: "B.Sc. Mechanical Engineering",
+    subtitle: "University of Iceland",
     begin: "",
     end: "2014-05-12",
     description: "",
@@ -51,8 +51,8 @@ export const CERTIFICATES: CvItem[] = [
     attachment: "",
   },
   {
-    title: "ITIL v3 Foundation Certificate",
-    subtitle: "TÜV SÜD Akademie",
+    title: "B.Sc. Computer Science",
+    subtitle: "University of Iceland",
     begin: "",
     end: "2012-07-02",
     description: "",
@@ -60,34 +60,34 @@ export const CERTIFICATES: CvItem[] = [
     attachment: "ITIL-Zertifikat_2012.pdf",
   },
   {
-    title: "Test of English as foreign language (TOEFL) - ITP",
-    subtitle: "LTS Language & Testing Service",
+    title: "Design and building of an electric formula race car",
+    subtitle: "University of Iceland",
     begin: "",
-    end: "2011-08-31",
+    end: "2012-07-02",
     description: "",
-    thumbnail: "ETS_TOEFL_ITP.png",
-    attachment: "LTS_TOEFL ITP-Zertifikat_2011.pdf",
+    thumbnail: "itil_foundation.png",
+    attachment: "ITIL-Zertifikat_2012.pdf",
   },
 ];
 
 export const EDUCATION: CvItem[] = [
   {
-    title: "Technische Universität Berlin",
-    subtitle: "Master of Science | Computer Science",
+    title: "B.Sc. Mechanical Engineering",
+    subtitle: "University of Iceland",
     begin: "2011-10",
     end: "2015-04",
     description: "",
-    tags: ["Scrum", "SVN", "Git", "Java", "Scala", "eclipse", "Lua", "Maven"],
+    tags: ["Differential Equations", "Physics", "Probability", "Statistics", "Numerical Analysis", "Linear Algebra", "Control Systems", "Fluid Mechanics", "Chemistry", "Vibrations","Economics Engineering",  "Microcomputers"],
     link: "http://www.tu-berlin.de",
     thumbnail: "TU-Berlin-Logo.png",
   },
   {
-    title: "Technische Universität Berlin",
-    subtitle: "Bachelor of Science | Computer Science",
+    title: "B.Sc. Computer Science",
+    subtitle: "University of Iceland",
     begin: "2008-10",
     end: "2011-12",
     description: "",
-    tags: ["Scrum", "SVN", "Java", "C", "Assembler", "eclipse", "Opal", "ant"],
+    tags: ["Analysis of Algorithms", "Theory of Computation", "Discreete Mathematics", "Functional Programming", "Nonlinear Optimization", "Software Development", "Web Programming", "Computer Graphics", "Assembly", "Operating Systems"],
     link: "http://www.tu-berlin.de",
     thumbnail: "TU-Berlin-Logo.png",
   },
@@ -95,10 +95,8 @@ export const EDUCATION: CvItem[] = [
 
 export const LANGUAGES = [
   // RATE YOURSELF  =>  100% = NATIVE;  80-99% = FLUENT;  60-79% = ADVANCED;  40-59% = INTERMEDIATE;  20-39% = ELEMENTARY;  0-19% = BEGINNER
-  { title: "German", level: "100" },
-  { title: "English", level: "80" },
-  { title: "Italian", level: "70" },
-  { title: "French", level: "30" },
+  { title: "English", level: "97" },
+  { title: "Icelandic (native)", level: "98" },
 ];
 
 export const PROJECTS: CvItem[] = [
