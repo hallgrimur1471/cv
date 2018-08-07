@@ -63,11 +63,23 @@ mat-card.page-title {
   color: white;
   padding: 12px 60px 12px 24px;
 }
+mat-card.asdf {
+  background-color: #444;
+  position: bottom;
+  color: white;
+  padding: 0px 0px 0px 0px;
+}
 mat-card.page-title mat-icon {
   position: absolute;
   font-size: 1.4em;
   top: 8px;
   right: 24px;
+}
+mat-card.image-holder {
+  background-color: #303030;
+  padding-bottom: 0px !important;
+  position: bottom;
+  margin-bottom: 1em;
 }
 
 mat-chip {

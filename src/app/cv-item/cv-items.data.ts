@@ -104,9 +104,9 @@ export const PROJECTS: CvItem[] = [
     subtitle: "Compile & Deployment server",
     begin: "",
     end: "",
-    description: "Compiles & deploys software to Svarmi's drones.\n Receives source code from developers using rsync's delta-transfer algorithm and then proceeds to compile the code for Svarmi's drones envionment and CPU architecture.",
+    description: "Compiles & deploys software to Svarmi's drones. Receives source code from developers using rsync's delta-transfer algorithm and then proceeds to compile the code for Svarmi's drones envionment and CPU architecture.",
     tags: ["Python", "CMake", "ROS", "Rsync", "Socket Programming", "Pytest"],
-    thumbnail: "build-farm-cropped.jpg",
+    thumbnail: "build_farm_cropped.jpg",
   },
   {
     title: "ROS VPN & DNS",
