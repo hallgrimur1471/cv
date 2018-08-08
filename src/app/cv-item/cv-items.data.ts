@@ -31,26 +31,7 @@ export const CVITEMS: CvItem[] = [
 
 export const CERTIFICATES: CvItem[] = [
   {
-    title: "Private Pilot",
-    subtitle: "Icelandic flight administration",
-    begin: "",
-    end: "2015-04",
-    description: "",
-    link: "",
-    thumbnail: "intershop.svg",
-    attachment: "ISH_Development_Training_2015.pdf",
-  },
-  {
-    title: "B.Sc. Mechanical Engineering",
-    subtitle: "University of Iceland",
-    begin: "",
-    end: "2014-05-12",
-    description: "",
-    thumbnail: "Git-Logo-2Color.png",
-    attachment: "",
-  },
-  {
-    title: "B.Sc. Computer Science",
+    title: "Design and building of an electric formula race car",
     subtitle: "University of Iceland",
     begin: "",
     end: "2012-07-02",
@@ -59,8 +40,17 @@ export const CERTIFICATES: CvItem[] = [
     attachment: "ITIL-Zertifikat_2012.pdf",
   },
   {
-    title: "Design and building of an electric formula race car",
-    subtitle: "University of Iceland",
+    title: "University of Iceland's Robot design competition",
+    subtitle: "We were a team of 4 engineers, and we got the first price!",
+    begin: "",
+    end: "2016",
+    description: "",
+    thumbnail: "itil_foundation.png",
+    attachment: "ITIL-Zertifikat_2012.pdf",
+  },
+  {
+    title: "Youth symphony orhestra of Iceland",
+    subtitle: "Played the Harp for Gustav Holst - The Planets. At the concert hall Harpan.",
     begin: "",
     end: "2012-07-02",
     description: "",
@@ -70,6 +60,16 @@ export const CERTIFICATES: CvItem[] = [
 ];
 
 export const EDUCATION: CvItem[] = [
+  {
+    title: "B.Sc. Computer Science",
+    subtitle: "University of Iceland",
+    begin: "2008-10",
+    end: "2011-12",
+    description: "",
+    tags: ["Analysis of Algorithms", "Theory of Computation", "Discreete Mathematics", "Functional Programming", "Nonlinear Optimization", "Software Development", "Web Programming", "Computer Graphics", "Assembly", "Operating Systems"],
+    link: "http://www.tu-berlin.de",
+    thumbnail: "TU-Berlin-Logo.png",
+  },
   {
     title: "B.Sc. Mechanical Engineering",
     subtitle: "University of Iceland",
@@ -81,14 +81,14 @@ export const EDUCATION: CvItem[] = [
     thumbnail: "TU-Berlin-Logo.png",
   },
   {
-    title: "B.Sc. Computer Science",
-    subtitle: "University of Iceland",
-    begin: "2008-10",
-    end: "2011-12",
+    title: "Private Pilot",
+    subtitle: "Icelandic flight administration",
+    begin: "",
+    end: "2015-04",
     description: "",
-    tags: ["Analysis of Algorithms", "Theory of Computation", "Discreete Mathematics", "Functional Programming", "Nonlinear Optimization", "Software Development", "Web Programming", "Computer Graphics", "Assembly", "Operating Systems"],
-    link: "http://www.tu-berlin.de",
-    thumbnail: "TU-Berlin-Logo.png",
+    link: "",
+    thumbnail: "intershop.svg",
+    attachment: "ISH_Development_Training_2015.pdf",
   },
 ];
 
@@ -180,15 +180,6 @@ export const PROJECTS: CvItem[] = [
 
 
 export const VOLUNTEERING: CvItem[] = [
-  {
-    title: "None",
-    subtitle: "None",
-    begin: "2007",
-    end: "2016",
-    description: "None",
-    link: "http://www.example.com",
-    thumbnail: "DFB-Logo.jpg",
-  },
 ];
 
 export const CONTACT = {
@@ -233,36 +224,4 @@ export const INTERESTS = [
 export const PUBLICATIONS: CvItem[] = [];
 
 export const TALKS: CvItem[] = [
-  {
-    title: "Tear down this wall! - Overcoming collaboration obstacles on your DevOps journey",
-    subtitle: "60 min. @ DevOpsCon Berlin 2018",
-    begin: "",
-    end: "2018-05-29",
-    description: "The discussion about DevOps is often focusing solely on the tooling aspect: automation, " +
-    "continuous integration & delivery; and monitoring. But automation and monitoring will only get you so far on " +
-    "your DevOps journey. The first and arguably hardest thing to master in DevOps is getting your work from " +
-    "inception into the hands of the customer fast. It requires your engineers to work hand in hand to ensure the " +
-    "stability of the software as well as the systems it runs on. We focus on the organizational " +
-    "aspects of DevOps: How to measure and improve your team’s effectiveness by reducing silos and silo thinking and " +
-    "how to get your engineers to share responsibility - a basis for every successful DevOps transformation.",
-    tags: ["DevOps", "culture", "collaboration", "communication", "microservices", "team structure"],
-    link: "https://jaxenter.com/devops-interview-schreck-uebel-145573.html",
-    thumbnail: "DevOpsCon_2018_Speaker.png",
-  },
-  {
-    title: "Tear down this wall! - Overcoming collaboration obstacles on your DevOps journey",
-    subtitle: "45 min. @ code.talks commerce special Berlin 2018",
-    begin: "",
-    end: "2018-04-13",
-    description: "The discussion about DevOps is often focusing solely on the tooling aspect: automation, " +
-    "continuous integration & delivery; and monitoring. But automation and monitoring will only get you so far on " +
-    "your DevOps journey. The first and arguably hardest thing to master in DevOps is getting your work from " +
-    "inception into the hands of the customer fast. It requires your engineers to work hand in hand to ensure the " +
-    "stability of the software as well as the systems it runs on. We focus on the organizational " +
-    "aspects of DevOps: How to measure and improve your team’s effectiveness by reducing silos and silo thinking and " +
-    "how to get your engineers to share responsibility - a basis for every successful DevOps transformation.",
-    tags: ["DevOps", "culture", "collaboration", "communication", "microservices"],
-    link: "https://www.youtube.com/watch?v=KWw0H__mtxI",
-    thumbnail: "code-talks-commerce.png",
-  },
 ];

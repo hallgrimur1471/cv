@@ -11,10 +11,24 @@ import { PictureModalComponent } from "../picture-modal/picture-modal.component"
 })
 export class OverviewComponent implements OnInit {
   title1 = "Overview";
-  title2 = "Professional experience";
+  title2 = "Work experience";
   generalData;
   interests;
   experienceItems: CvItem[];
+
+  // education
+  educationItems: CvItem[];
+  certificationItems: CvItem[];
+  languageItems;
+  title = "Projects";
+
+  // projects
+  projectItems: CvItem[];
+  title3 = "Projects";
+
+  // contact
+  contactItems;
+  title4 = "Contact Information";
 
   constructor(
     private cvItemService: CvItemService,
@@ -38,31 +52,21 @@ export class OverviewComponent implements OnInit {
     this.cvItemService
       .getCvItems()
       .then(items => this.experienceItems = items);
-  }
-
-  ngOnInit() {
-    this.getItems();
-  }
-
-}
-
-@Component({
-  selector: 'app-experience',
-  templateUrl: './overview.component.html',
-  styleUrls: ['./experience.component.css']
-})
-export class ExperienceComponent implements OnInit {
-  experienceItems: CvItem[];
-  title = "Professional Experience";
-
-  constructor(
-    private cvItemService: CvItemService
-  ) { }
-
-  getItems(): void {
     this.cvItemService
-      .getCvItems()
-      .then(items => this.experienceItems = items);
+      .getEducationItems()
+      .then(items => this.educationItems = items);
+    this.cvItemService
+      .getCertificationItems()
+      .then(items => this.certificationItems = items);
+    this.cvItemService
+      .getLanguageItems()
+      .then(items => this.languageItems = items);
+    this.cvItemService
+      .getProjectItems()
+      .then(items => this.projectItems = items);
+    this.cvItemService
+      .getContactItems()
+      .then(items => this.contactItems = items);
   }
 
   ngOnInit() {
