@@ -36,16 +36,15 @@ export const CERTIFICATES: CvItem[] = [
     begin: "",
     end: "2012-07-02",
     description: "",
-    thumbnail: "itil_foundation.png",
-    attachment: "ITIL-Zertifikat_2012.pdf",
+    thumbnail: "fs_logo.jpg",
   },
   {
     title: "University of Iceland's Robot design competition",
     subtitle: "We were a team of 4 engineers, and we got the first price!",
     begin: "",
-    end: "2016",
+    end: "2015",
     description: "",
-    thumbnail: "itil_foundation.png",
+    thumbnail: "design_competition_cropped.jpg",
     attachment: "ITIL-Zertifikat_2012.pdf",
   },
   {
@@ -54,7 +53,7 @@ export const CERTIFICATES: CvItem[] = [
     begin: "",
     end: "2012-07-02",
     description: "",
-    thumbnail: "itil_foundation.png",
+    thumbnail: "youth_orchestra_cropped.png",
     attachment: "ITIL-Zertifikat_2012.pdf",
   },
 ];
@@ -68,7 +67,7 @@ export const EDUCATION: CvItem[] = [
     description: "",
     tags: ["Analysis of Algorithms", "Theory of Computation", "Discreete Mathematics", "Functional Programming", "Nonlinear Optimization", "Software Development", "Web Programming", "Computer Graphics", "Assembly", "Operating Systems"],
     link: "http://www.tu-berlin.de",
-    thumbnail: "TU-Berlin-Logo.png",
+    thumbnail: "hi_logo.jpg",
   },
   {
     title: "B.Sc. Mechanical Engineering",
@@ -78,7 +77,7 @@ export const EDUCATION: CvItem[] = [
     description: "",
     tags: ["Differential Equations", "Physics", "Probability", "Statistics", "Numerical Analysis", "Linear Algebra", "Control Systems", "Fluid Mechanics", "Chemistry", "Vibrations","Economics Engineering",  "Microcomputers"],
     link: "http://www.tu-berlin.de",
-    thumbnail: "TU-Berlin-Logo.png",
+    thumbnail: "hi_logo.jpg",
   },
   {
     title: "Private Pilot",
@@ -87,7 +86,7 @@ export const EDUCATION: CvItem[] = [
     end: "2015-04",
     description: "",
     link: "",
-    thumbnail: "intershop.svg",
+    thumbnail: "icelandic_aviation_administration_cropped.jpg",
     attachment: "ISH_Development_Training_2015.pdf",
   },
 ];

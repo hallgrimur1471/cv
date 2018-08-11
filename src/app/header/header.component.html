@@ -18,14 +18,3 @@
     {{generalData.name}}
   </a>
 </mat-toolbar>
-
-<nav mat-tab-nav-bar *ngIf="windowWidth >= 800">
-  <a mat-tab-link
-     *ngFor="let link of navLinks"
-     routerLink="{{link.location}}"
-     routerLinkActive #rla="routerLinkActive"
-     [active]="rla.isActive">
-    <mat-icon>{{link.icon}}</mat-icon>
-    <span>{{link.label | uppercase}}</span>
-  </a>
-</nav>
