@@ -24,6 +24,7 @@
     </mat-chip-list>
   </mat-card-content>
 
+<!--
   <button mat-icon-button class="toggle-details" color="primary" (click)="toggleDetails($event)"
           *ngIf="(cvItem.description !== undefined && cvItem.description !== '')
            || (cvItem.tags !== undefined && cvItem.tags !== [] && cvItem.tags.length > 0)
@@ -31,6 +32,7 @@
            || cvItem.attachment !== undefined && cvItem.attachment !== ''">
     <mat-icon aria-label="toggle details"></mat-icon>
   </button>
+-->
   <mat-card-actions>
     <a mat-button color="primary" href="{{cvItem.link}}" target="_blank" *ngIf="cvItem.link !== undefined && cvItem.link !== ''">
       <mat-icon>link</mat-icon>
