@@ -64,6 +64,15 @@ export const CERTIFICATES: CvItem[] = [
     thumbnail: "youth_orchestra_cropped.png",
     attachment: "ITIL-Zertifikat_2012.pdf",
   },
+  {
+    title: "Basist/Harpist of Glundroði",
+    subtitle: "Folk band.",
+    begin: "spring 2011",
+    end: "autumn 2013",
+    description: "",
+    thumbnail: "youth_orchestra_cropped.png",
+    attachment: "ITIL-Zertifikat_2012.pdf",
+  },
 ];
 
 export const EDUCATION: CvItem[] = [
