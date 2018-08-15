@@ -64,7 +64,7 @@ export const EDUCATION: CvItem[] = [
 export const CERTIFICATES: CvItem[] = [
   {
     title: "Design and building of an electric formula race car",
-    subtitle: "University of Iceland",
+    subtitle: "Designed and built the wings for the car in a team of three engineering students focusing on aerodynamics.",
     begin: "autumn 2015",
     end: "summer 2016",
     description: "",
@@ -72,7 +72,7 @@ export const CERTIFICATES: CvItem[] = [
   },
   {
     title: "University of Iceland's Robot design competition",
-    subtitle: "We were a team of 4 engineers, and we got the first price!",
+    subtitle: "Participating in a team of four engineering students, we won the competition.",
     begin: "autumn 2014",
     end: "spring 2015",
     description: "",
@@ -81,7 +81,7 @@ export const CERTIFICATES: CvItem[] = [
   },
   {
     title: "Programming competition",
-    subtitle: "team of 3 - 2.nd place",
+    subtitle: "Participating in a team of three high school students, we got second place.",
     begin: "",
     end: "spring 2013",
     description: "",
@@ -90,7 +90,7 @@ export const CERTIFICATES: CvItem[] = [
   },
   {
     title: "Youth symphony orhestra of Iceland",
-    subtitle: "Played the Harp for Gustav Holst - The Planets. At the concert hall Harpan.",
+    subtitle: "Played the harp at the concert hall Harpan in the suite \"The Planets\" by Gustav Holst",
     begin: "",
     end: "autumn 2012",
     description: "",
@@ -217,7 +217,7 @@ export const CONTACT = {
 
 export const INTERESTS = [
   {
-    title:'Playing my Harp',
+    title:'Playing the Harp',
     subtitle:'1999 — 2018',
     icon:'music_note'
   },
