@@ -28,44 +28,6 @@ export const CVITEMS: CvItem[] = [
   },
 ];
 
-export const CERTIFICATES: CvItem[] = [
-  {
-    title: "Design and building of an electric formula race car",
-    subtitle: "University of Iceland",
-    begin: "autumn 2015",
-    end: "summer 2016",
-    description: "",
-    thumbnail: "fs_logo.jpg",
-  },
-  {
-    title: "University of Iceland's Robot design competition",
-    subtitle: "We were a team of 4 engineers, and we got the first price!",
-    begin: "autumn 2014",
-    end: "spring 2015",
-    description: "",
-    thumbnail: "design_competition_cropped.jpg",
-    attachment: "ITIL-Zertifikat_2012.pdf",
-  },
-  {
-    title: "Programming competition",
-    subtitle: "team of 3 - 2.nd place",
-    begin: "",
-    end: "spring 2013",
-    description: "",
-    thumbnail: "youth_orchestra_cropped.png",
-    attachment: "ITIL-Zertifikat_2012.pdf",
-  },
-  {
-    title: "Youth symphony orhestra of Iceland",
-    subtitle: "Played the Harp for Gustav Holst - The Planets. At the concert hall Harpan.",
-    begin: "",
-    end: "autumn 2012",
-    description: "",
-    thumbnail: "youth_orchestra_cropped.png",
-    attachment: "ITIL-Zertifikat_2012.pdf",
-  },
-];
-
 export const EDUCATION: CvItem[] = [
   {
     title: "B.Sc. Computer Science",
@@ -96,6 +58,53 @@ export const EDUCATION: CvItem[] = [
     link: "",
     thumbnail: "icelandic_aviation_administration_cropped.jpg",
     attachment: "ISH_Development_Training_2015.pdf",
+  },
+];
+
+export const CERTIFICATES: CvItem[] = [
+  {
+    title: "Design and building of an electric formula race car",
+    subtitle: "University of Iceland",
+    begin: "autumn 2015",
+    end: "summer 2016",
+    description: "",
+    thumbnail: "fs_logo.jpg",
+  },
+  {
+    title: "University of Iceland's Robot design competition",
+    subtitle: "We were a team of 4 engineers, and we got the first price!",
+    begin: "autumn 2014",
+    end: "spring 2015",
+    description: "",
+    thumbnail: "design_competition_cropped.jpg",
+    attachment: "ITIL-Zertifikat_2012.pdf",
+  },
+  {
+    title: "Programming competition",
+    subtitle: "team of 3 - 2.nd place",
+    begin: "",
+    end: "spring 2013",
+    description: "",
+    thumbnail: "",
+    attachment: "ITIL-Zertifikat_2012.pdf",
+  },
+  {
+    title: "Youth symphony orhestra of Iceland",
+    subtitle: "Played the Harp for Gustav Holst - The Planets. At the concert hall Harpan.",
+    begin: "",
+    end: "autumn 2012",
+    description: "",
+    thumbnail: "youth_orchestra_cropped.png",
+    attachment: "ITIL-Zertifikat_2012.pdf",
+  },
+  {
+    title: "Bassist/Harpist at Glundroði",
+    subtitle: "Played in the folk rock band Glundroði. We played at a few venues and did studio recordings.",
+    begin: "spring 2012",
+    end: "summer 2013",
+    description: "",
+    thumbnail: "glundrodi_cropped.jpg",
+    link: "https://www.youtube.com/watch?v=dZBbcCZiin4",
   },
 ];
 
