@@ -107,7 +107,7 @@ export class PdfComponent implements OnInit {
     PdfComponent.addPageFooter(doc);
 
     // Save the PDF
-    doc.save('AngularCV_' + this.generalData.name.replace(' ', '_') + '.pdf');
+    //doc.save('AngularCV_' + this.generalData.name.replace(' ', '_') + '.pdf');
   }
 
   private switchPage(doc){
