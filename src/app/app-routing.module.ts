@@ -13,7 +13,7 @@ import { ContactComponent }       from "./contact/contact.component";
 const routes: Routes = [
   { path: '',       component: OverviewComponent },
   { path: 'about',          component: AboutComponent },
-  { path: '**',             redirectTo: 'overview' },
+  { path: '**',             redirectTo: '' },
 ];
 
 @NgModule({
