@@ -109,7 +109,7 @@ export const CERTIFICATES: CvItem[] = [
   },
   {
     title: "Youth symphony orchestra of Iceland",
-    subtitle: "Played the harp at the concert hall Harpa in the suite \"The Planets\" by Gustav Holst.",
+    subtitle: "Played the harp in the orchestral suite \"The Planets\" at the concert hall Harpa.",
     begin: "",
     end: "autumn 2012",
     description: "",
@@ -148,7 +148,7 @@ export const PROJECTS: CvItem[] = [
     subtitle: "Encapsulating Svarmi's network of drones",
     begin: "autumn 2017",
     end: "",
-    description: "The VPN encapsulates Svarmi's ROS system with AES-256 encryption and the DNS allows our drones and servers to talk to each other using hostnames.",
+    description: "The VPN encapsulates Svarmi's ROS system with AES-256 encryption and the DNS allows drones and servers to talk to each other using hostnames.",
     tags: ["AWS", "OpenVPN", "Bind9", "Linux", "ROS", "Bash"],
     thumbnail: "vpn_dns_cropped.jpeg",
   },
