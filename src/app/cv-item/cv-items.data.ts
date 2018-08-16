@@ -237,7 +237,7 @@ export const CONTACT = {
 export const INTERESTS = [
   {
     title:'Playing the harp',
-    subtitle:'1999 — 2018',
+    subtitle:'1999 — now',
     icon:'music_note'
   },
   {
