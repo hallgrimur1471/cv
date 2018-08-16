@@ -11,14 +11,7 @@ import { AboutComponent }         from './about/about.component';
 import { ContactComponent }       from "./contact/contact.component";
 
 const routes: Routes = [
-  { path: '',               redirectTo: '/overview', pathMatch: 'full' },
-  { path: 'overview',       component: OverviewComponent },
-  { path: 'experience',     component: ExperienceComponent },
-  { path: 'education',      component: EducationComponent },
-  { path: 'publications',   component: PublicationsComponent },
-  { path: 'projects',       component: ProjectsComponent },
-  { path: 'volunteering',   component: VolunteeringComponent },
-  { path: 'contact',        component: ContactComponent },
+  { path: '',       component: OverviewComponent },
   { path: 'about',          component: AboutComponent },
   { path: '**',             redirectTo: 'overview' },
 ];
