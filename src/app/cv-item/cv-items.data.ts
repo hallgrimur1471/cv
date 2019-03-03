@@ -9,10 +9,19 @@ export const GENERAL = {
 export const CVITEMS: CvItem[] = [
   {
     title: "Svarmi",
+    subtitle: "CTO",
+    begin: "autumn 2018",
+    end: "",
+    description: "Managing development of Myriad. A network of self-chargeable drones deployable to industrial areas for frequent deliveries of processed aerial data.",
+    tags: ["Agile", "AWS", "CI/CD", "TDD", "GitLab", "Read the Docs", "Python", "Bash", "Docker", "OpenVPN", "Bind9"],
+    thumbnail: "svarmi_logo.png",
+  },
+  {
+    title: "Svarmi",
     subtitle: "Computer Scientist - DevOps",
     begin: "summer 2017",
-    end: "",
-    description: "Focusing on Systems Architecture and DevOps for maximum scalability of Myriad. A network of self-chargeable drones deployable to industrial areas for frequent deliveries of processed aerial data.",
+    end: "autumn 2018",
+    description: "Focusing on Systems Architecture and DevOps for maximum scalability of Myriad.",
     tags: ["AWS", "Docker", "Kubernetes", "OpenVPN", "Bind9", "CI/CD", "TDD", "GitLab", "Python", "Bash", "Read the Docs"],
     thumbnail: "svarmi_logo.png",
   },
