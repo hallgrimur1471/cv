@@ -6,7 +6,6 @@ export const GENERAL = {
   description: ""
 };
 
-#
 export const CVITEMS: CvItem[] = [
   {
     title: "Svarmi",
