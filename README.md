@@ -1,6 +1,6 @@
 # CV
 
-This repository is a mirror of https://github.com/StegSchreck/AngularCV
+This repository is a mirror of https://github.com/StegSchreck/AngularCV .
 
 # Original README.md of mirror:
 
