@@ -11,6 +11,8 @@ phases:
             - npm install
             - npm install -g @angular/cli
     build:
+        runtime-versions:
+            nodejs: 12
         commands:
             - echo Build started on `date`
             - ng build --prod --aot
