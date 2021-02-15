@@ -4,6 +4,8 @@ environment_variables:
         S3_BUCKET: "hallgrimur1471.com"
 phases:
     install:
+        runtime-versions:
+            nodejs: 12
         commands:
             - echo Installing source NPM dependencies...
             - npm install
